@@ -141,8 +141,8 @@ plotSpatialScatterpie <- function(
     x <- .x_cnames(x)
 
     # Convert y to matrix format
-    if (!is.matrix(x)) {
-        y <- as.matrix(x)
+    if (!is.matrix(y)) {
+        y <- as.matrix(y)
     }
 
     # Stop if x and y don't have the same number of columns or if the
